@@ -1,4 +1,5 @@
-# A checklist for all projects that are going live
+# A checklist for all projects that are going live at RETINENS
+Based on https://github.com/spatie/checklist-going-live 
 
 ## 1. Browserstack tests
 - [ ] Desktop: test on latest versions of Chrome, IE/Edge, Firefox, Safari
