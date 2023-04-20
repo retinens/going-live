@@ -80,3 +80,6 @@ _Repeat this section for all languages_
 - [ ] Is Horizon configured in Supervisor on Ploi?
 - [ ] Is the database backed up on Ploi ?
 - [ ] Check the .env on the production server
+
+## Bug Tracking
+- [ ] Is Larabug configured ?
