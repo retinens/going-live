@@ -40,6 +40,7 @@ Based on https://github.com/spatie/checklist-going-live
 - [ ] Test Facebook / Twitter sharing. 
 - [ ] Does the Favicon load? Pin the tab in Safari to check pinned icon
 - [ ] Is a theme color defined in the HTML header ?
+- [ ] Is the block robots checkbox unchecked in Ploi ?
 
 _Repeat this section for all languages_
 
@@ -65,8 +66,7 @@ _Repeat this section for all languages_
 - [ ] Try visiting `www` domain, should redirect to `non-www`
 - [ ] Try out visiting `http`, should redirect to `https`
 - [ ] Verify that indexing is not prohibited with `x-robots-tag: none` by checking `curl -I https://url | grep 'x-robots-tag'`. Allow robots in `.env`
-- [ ] Check dns propagation with https://www.whatsmydns.net/
-- [ ] Verify Tag Manager / Analytics have been correctly set up
+- [ ] Verify Tag Manager / Analytics have been correctly set up, and set in tarteaucitron
 
 ### Google Search Console
 - [ ] Submit all www/non-www http/https variations
@@ -79,3 +79,4 @@ _Repeat this section for all languages_
 - [ ] Is artisan scheduled on Ploi?
 - [ ] Is Horizon configured in Supervisor on Ploi?
 - [ ] Is the database backed up on Ploi ?
+- [ ] Check the .env on the production server
