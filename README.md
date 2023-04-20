@@ -43,6 +43,7 @@ Based on https://github.com/spatie/checklist-going-live
 - [ ] Is a theme color defined in the HTML header ?
 - [ ] Is the block robots checkbox unchecked in Ploi ?
 - [ ] Is the sitemap autogenerator installed and configured ?
+- [ ] Is there a default OG image ?
 
 _Repeat this section for all languages_
 
