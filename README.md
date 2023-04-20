@@ -11,6 +11,7 @@ Based on https://github.com/spatie/checklist-going-live
 - [ ] Search sources for `http://`. Replace by `https://`
 - [ ] Check everything is compiling `npm run prod-all`
 - [ ] Webfonts: is the live domain configured in services like Fontawesome ?
+- [ ] Github Actions : is everything configured and running smoothly ?
 
 ### Scripts
 - [ ] Check JS errors. Remove all `console.log` lines in scripts
@@ -41,6 +42,7 @@ Based on https://github.com/spatie/checklist-going-live
 - [ ] Does the Favicon load? Pin the tab in Safari to check pinned icon
 - [ ] Is a theme color defined in the HTML header ?
 - [ ] Is the block robots checkbox unchecked in Ploi ?
+- [ ] Is the sitemap autogenerator installed and configured ?
 
 _Repeat this section for all languages_
 
