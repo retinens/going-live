@@ -3,18 +3,20 @@ Based on https://github.com/spatie/checklist-going-live
 
 ## 1. Test on Desktop and mobile
 - [ ] Desktop
+- [ ] Tablet
 - [ ] Mobile
 
 ## 2. Front end checklist
 
 ### Assets
 - [ ] Search sources for `http://`. Replace by `https://`
-- [ ] Check everything is compiling `npm run prod-all`
+- [ ] Check everything is compiling `npm run build`
 - [ ] Webfonts: is the live domain configured in services like Fontawesome ?
 - [ ] Github Actions : is everything configured and running smoothly ?
 
 ### Scripts
 - [ ] Check JS errors. Remove all `console.log` lines in scripts
+- [ ] Is Flare configured in Vue project
 - [ ] Check for console errors
 
 ### Page weight
@@ -49,16 +51,10 @@ _Repeat this section for all languages_
 
 ### Components
 
-- [ ] Forms: fill out with wrong/right values
-- [ ] Video: check with sound on
-- [ ] Try subscribing to a newsletter with incorrect & correct email (use correct mail twice to get 'already subscribed' message)
 - [ ] Check layout of emails
 - [ ] Check email styling
-- [ ] Check structured data for news, events, products,... https://search.google.com/structured-data/testing-tool/
 
 ## 4. Back end checklist
-- [ ] Create a new admin and try to log in
-- [ ] Try the password reset flow for existing user
 - [ ] Verify all e-mail recipients are correct (for contact emails)
 - [ ] Scan database for urls to development domain
 
@@ -78,7 +74,6 @@ _Repeat this section for all languages_
 
 ### Server
 - [ ] Are DigitalOcean backups enabled?
-- [ ] Is the output of artisan task `backup:run` ok?
 - [ ] Is artisan scheduled on Ploi?
 - [ ] Is Horizon configured in Supervisor on Ploi?
 - [ ] Is the database backed up on Ploi ?
@@ -86,4 +81,4 @@ _Repeat this section for all languages_
 - [ ] Enable caching in Nginx
 
 ## Bug Tracking
-- [ ] Is Larabug configured ?
+- [ ] Is Flare configured ?
